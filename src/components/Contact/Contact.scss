@@ -1,0 +1,31 @@
+.contact{
+    background: #2879fe;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    .wrapper{
+        display: flex;
+        width: 50%;
+        align-items: center;
+        padding: 10px 30px;
+        justify-content: space-between;
+
+
+        button{
+            background: rgb(26, 21, 21);
+            color: white;
+            padding: 6px;
+            border-radius: 0 5px 5px 0;
+        }
+
+        input{
+            padding: 6px;
+            border-radius: 5px 0 0 5px;
+        }
+        .icons{
+            display: flex;
+            gap: 15px;
+        }
+    }
+}
